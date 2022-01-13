@@ -25,8 +25,8 @@
 </template>
 
 <script>
-import DropdownList from './DropdownList.vue'
-import SideNavbar from './SideNavbar.vue'
+import DropdownList from '../../../components/shared/Navbar/DropdownList.vue'
+import SideNavbar from '../../../components/shared/Navbar/SideNavbar.vue'
 
 export default ({
     components: {
@@ -53,6 +53,7 @@ export default ({
 
     a{
         color: black;
+        font-size: larger;
     }
 
     .sidenav {

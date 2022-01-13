@@ -24,6 +24,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    .sidenav a{
+        font-size: larger;
+    }
 </style>

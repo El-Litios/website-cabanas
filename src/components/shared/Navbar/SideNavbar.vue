@@ -27,5 +27,7 @@ export default {
 <style scoped>
     .sidenav a{
         font-size: larger;
+        font-family: 'Luxurious Roman';
+        color: black;
     }
 </style>

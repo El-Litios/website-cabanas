@@ -25,8 +25,8 @@
 </template>
 
 <script>
-import DropdownList from '../../../components/shared/Navbar/DropdownList.vue'
-import SideNavbar from '../../../components/shared/Navbar/SideNavbar.vue'
+import DropdownList from './DropdownList.vue'
+import SideNavbar from './SideNavbar.vue'
 
 export default ({
     components: {
@@ -58,6 +58,6 @@ export default ({
     }
 
     .sidenav {
-        background-color: rgb(248, 248, 248) ; 
+        background-color: rgb(248, 248, 248); 
     }
 </style>

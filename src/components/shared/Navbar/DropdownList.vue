@@ -27,6 +27,10 @@ export default {
 </script>
 
 <style scoped>
+  .dropdown-content li{
+    background-color: rgb(248, 248, 248);
+  }
+
   .dropdown-content a{
     color: black;
     font-family: 'Luxurious Roman';

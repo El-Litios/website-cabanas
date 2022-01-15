@@ -10,17 +10,17 @@
                 <h5 >Contacto</h5>
                 <ul >
                   <li class="col l4">
-                        <a  href="#!">
+                        <a  href="https://wa.me/+56973838009">
                           <span class="material-icons">whatsapp</span>
                         </a>
                   </li>
                   <li class="col l4">
-                        <a  href="#!">
+                        <a  href="https://www.facebook.com/cabanas.losquillayes/?ti=as">
                           <span class="material-icons">facebook</span>
                         </a>
                   </li>
                   <li class="col l4">
-                        <a  href="#!">
+                        <a  href="tel:+56973838009">
                           <span class="material-icons">call</span>
                         </a>
                   </li>

@@ -18,10 +18,17 @@
 <script>
 export default {
     mounted (){
+            var heigthSlider = 0;
+            const windowSize = document.documentElement.scrollWidth;
+            if (windowSize < 450) {
+                heigthSlider = 250
+            } else if( windowSize >= 450){
+                heigthSlider = 450
+            }
             document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.slider');
             var instances = M.Slider.init(elems, {
-                height: 450,
+                height: heigthSlider,
                 indicators: false
             });
         });
@@ -38,5 +45,17 @@ export default {
         padding-top: 1.68rem;
         font-family: 'Luxurious Roman';
         font-weight: bolder;
+    }
+
+    @media screen and (max-width: 437px) {
+        .caption h3{
+            font-size: 30px;
+        }
+    }
+
+    @media screen and (max-width: 333px) {
+        .caption h3{
+            font-size: 23px;
+        }
     }
 </style>

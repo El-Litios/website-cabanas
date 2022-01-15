@@ -29,6 +29,7 @@ export default {
 <style scoped>
   .dropdown-content a{
     color: black;
+    font-family: 'Luxurious Roman';
   }
 
   .dropdown-content li:hover{

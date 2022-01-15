@@ -54,6 +54,7 @@ export default ({
     a{
         color: black;
         font-size: larger;
+        font-family: 'Luxurious Roman';
     }
 
     .sidenav {

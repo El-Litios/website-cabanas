@@ -3,12 +3,11 @@
       <div class="slider">
             <ul class="slides">
                 <li>
-                    <div class="parallax">
+                    <div>
                         <img src="../../assets/WALLPAPER-radal.jpg" class="img-responsive">
                     </div>
                     <div class="caption center-align">
-                        <h3>This is our big Tagline!</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h3>BIENVENIDOS</h3>
                     </div>
                 </li>
             </ul>
@@ -22,7 +21,8 @@ export default {
             document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.slider');
             var instances = M.Slider.init(elems, {
-                height: 450
+                height: 450,
+                indicators: false
             });
         });
     }
@@ -30,12 +30,13 @@ export default {
 </script>
 
 <style scoped>
-    .slider .slides li .caption{
-        background-color: red;
+    .caption h3{
         border-radius: 10px;
-        top: 25%;
-        left: 40%;
-        width: 20%;
-        height: 45%;
+        background-color: rgba(248, 248, 248, 0.8);
+        color: black;
+        padding-bottom: 1.68rem;
+        padding-top: 1.68rem;
+        font-family: 'Luxurious Roman';
+        font-weight: bolder;
     }
 </style>

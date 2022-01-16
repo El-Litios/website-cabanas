@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "personas": 3,
+        "nombre": "cabaña 1",
+        "imgsources": 
+            [
+                {
+                "id": 1,
+                "url": "https://pbs.twimg.com/profile_images/1313547461512880128/XpnRuLqK_400x400.jpg"
+                },
+                {
+                "id": 2,
+                "url": "https://pbs.twimg.com/profile_images/1313547461512880128/XpnRuLqK_400x400.jpg"
+                }
+            ]
+    }
+]

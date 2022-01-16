@@ -4,7 +4,7 @@
             <ul class="slides">
                 <li>
                     <div>
-                        <img src="../../assets/WALLPAPER-radal.jpg" class="img-responsive">
+                        <img src="../../assets/images/WALLPAPER-radal.jpg" class="img-responsive">
                     </div>
                     <div class="caption center-align">
                         <h3>BIENVENIDOS</h3>
@@ -25,13 +25,12 @@ export default {
             } else if( windowSize >= 450){
                 heigthSlider = 450
             }
-            document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.slider');
+            
+            var elems = document.querySelector('.slider');
             var instances = M.Slider.init(elems, {
                 height: heigthSlider,
                 indicators: false
             });
-        });
     }
 }
 </script>

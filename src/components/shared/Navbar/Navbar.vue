@@ -3,13 +3,13 @@
         <nav>
             <div class="nav-wrapper">
                 <a href="#!" class="brand-logo">
-                    <img src="../../../assets/Logodemo1.jpeg" height="56">
+                    <img src="../../../assets/images/Logodemo1.jpeg" height="56">
                 </a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#">Inicio</a></li>
+                    <li><router-link :to="{name: 'home'}">Inicio</router-link></li>
                     <li>
-                        <a class="dropdown-trigger" href="#!" data-target="dropdown1">Cabañas
+                        <a class="dropdown-trigger"  data-target="dropdown1">Cabañas
                             <i class="material-icons right">arrow_drop_down</i>
                         </a>
                     </li>
@@ -34,12 +34,11 @@ export default ({
 
     },
     mounted () {
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.dropdown-trigger');
-            var instances = M.Dropdown.init(elems, {
-                coverTrigger: false,
-            });
-        });
+        
+        var elems = document.querySelectorAll('.dropdown-trigger')
+        var instances = M.Dropdown.init(elems, {
+            coverTrigger: false,
+        })
     }
 })
 </script>

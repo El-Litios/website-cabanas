@@ -2,7 +2,11 @@
     {
         "id": 1,
         "personas": 3,
-        "nombre": "cabaña 1",
+        "nombre": "Cabaña 1",
+        "camas": "2 camas matrimoniales",
+        "banos": "1 baño",
+        "calefacción": "No posee",
+        "descripcion": "Cabaña equipada con cocina amoblada, cocina a gas, y comedor familiar",
         "imgsources": 
             [
                 {

@@ -24,12 +24,15 @@
                             <h5><b>Descripción: </b> {{desc}}</h5>
                         </div> 
                     </div>
-                    
+                    <br>
+                   
                    <div class="carousel">
-                        <div class="carousel-item" v-for="(im, index) in img" :key="index" >
-                            <img src="../../assets/images/cabins/Cabin_5/cabin5_img1.jpg" width="200">
-                        </div>
-                    </div>
+                       <h5><b>Imagenes: </b></h5>
+                            <a class="carousel-item " v-for="(im) in img" :key="im.id">
+                                <!-- <img :src="`../assets/images/${im.url}`" width="200">  -->
+                                <img :src="require(`../../assets/images/cabins/${im.url}`)" height="200" alt="">
+                            </a>
+                    </div>    
                 </div>
             </div>
         </div>
@@ -66,24 +69,23 @@ export default {
         Navbar, Footer
     },
 
-    mounted (){
-        var elems_carousel = document.querySelectorAll('.carousel');
-        M.Carousel.init(elems_carousel, {
-            fullWidth:true
-        });
-
-        var elems_materialbx = document.querySelectorAll('.materialboxed');
-        M.Materialbox.init(elems_materialbx, {});
-
-
+    beforeMount() {
         this.getData()
+    },
+    mounted (){ 
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, { fullWidth: false, numVisible: 3 });
+
+        var elems = document.querySelectorAll('.materialboxed');
+        var instances = M.Materialbox.init(elems, {});
 
         console.log(this.img);
     },
 
+    
     methods: {
         getData(){
-            const result = this.datajson.find(d => d.id == 1)
+            const result = this.datajson.find(d => d.id == this.id)
             this.name = result.nombre
             this.people = result.personas
             this.bed = result.camas
@@ -96,9 +98,13 @@ export default {
                 console.log(element.id);
             });
         }
-    }
+    },
 
-    
+    watch: {
+        id(){
+            this.getData()
+        }
+    }
     
 }
 </script>
@@ -127,7 +133,15 @@ export default {
         border-radius: 5px;
     }
 
-    .carousel-item{
-        min-width: 200px;
+    .carousel{
+        perspective: 3000px;
+        height: 300px;
     }
+
+    .carousel .carousel-item>img {
+        width: 150%;
+        margin-left: -25%; 
+        height: 250px;
+}
+
 </style>

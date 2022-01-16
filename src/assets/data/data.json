@@ -5,18 +5,221 @@
         "nombre": "Cabaña 1",
         "camas": "2 camas matrimoniales",
         "banos": "1 baño",
-        "calefacción": "No posee",
-        "descripcion": "Cabaña equipada con cocina amoblada, cocina a gas, y comedor familiar",
+        "calefaccion": "No posee",
+        "descripcion": "Cabaña equipada con cocina amoblada, cocina a gas, y comedor",
         "imgsources": 
             [
                 {
                 "id": 1,
-                "url": "https://pbs.twimg.com/profile_images/1313547461512880128/XpnRuLqK_400x400.jpg"
+                "url": "../../assets/images/cabins/Cabin_1/cabin1_img1.jpg"
                 },
                 {
                 "id": 2,
-                "url": "https://pbs.twimg.com/profile_images/1313547461512880128/XpnRuLqK_400x400.jpg"
+                "url": "../../assets/images/cabins/Cabin_1/cabin1_img2.jpg"
+                },
+                {
+                "id": 3,
+                "url": "../../assets/images/cabins/Cabin_1/cabin1_img3.jpg"
+                },
+                {
+                "id": 4,
+                "url": "../../assets/images/cabins/Cabin_1/cabin1_img4.jpg"
+                },
+                {
+                "id": 5,
+                "url": "../../assets/images/cabins/Cabin_1/cabin1_img5.jpg"
+                },
+                {
+                "id": 6,
+                "url": "../../assets/images/cabins/Cabin_1/cabin1_img6.jpg"
                 }
+                
+            ]
+    },
+    {
+        "id": 2,
+        "personas": 4,
+        "nombre": "Cabaña 2",
+        "camas": "1 cama matrimonial - 2 camas individuales",
+        "banos": "1 baño",
+        "calefaccion": "Calefacción a leña",
+        "descripcion": "Cabaña equipada con cocina amoblada, cocina a gas, refrigerador, y comedor",
+        "imgsources": 
+            [
+                {
+                "id": 1,
+                "url": "../../assets/images/cabins/Cabin_2/cabin2_img1.jpg"
+                },
+                {
+                "id": 2,
+                "url": "../../assets/images/cabins/Cabin_2/cabin2_img2.jpg"
+                },
+                {
+                "id": 3,
+                "url": "../../assets/images/cabins/Cabin_2/cabin3_img3.jpg"
+                },
+                {
+                "id": 4,
+                "url": "../../assets/images/cabins/Cabin_2/cabin2_img4.jpg"
+                },
+                {
+                "id": 5,
+                "url": "../../assets/images/cabins/Cabin_2/cabin2_img5.jpg"
+                },
+                {
+                "id": 6,
+                "url": "../../assets/images/cabins/Cabin_2/cabin2_img6.jpg"
+                }
+                
+            ]
+    },
+    {
+        "id": 3,
+        "personas": 5,
+        "nombre": "Cabaña 3",
+        "camas": "1 cama matrimonial - 1 camarote - 1 cama individual",
+        "banos": "1 baño",
+        "calefaccion": "Calefacción eléctrica",
+        "descripcion": "Cabaña equipada con cocina amoblada, living, cocina a gas, y comedor familiar",
+        "imgsources": 
+            [
+                {
+                "id": 1,
+                "url": "../../assets/images/cabins/Cabin_3/cabin3_img1.jpg"
+                },
+                {
+                "id": 2,
+                "url": "../../assets/images/cabins/Cabin_3/cabin3_img2.jpg"
+                },
+                {
+                "id": 3,
+                "url": "../../assets/images/cabins/Cabin_3/cabin3_img3.jpg"
+                },
+                {
+                "id": 4,
+                "url": "../../assets/images/cabins/Cabin_3/cabin3_img4.jpg"
+                },
+                {
+                "id": 5,
+                "url": "../../assets/images/cabins/Cabin_3/cabin3_img5.jpg"
+                },
+                {
+                "id": 6,
+                "url": "../../assets/images/cabins/Cabin_3/cabin3_img6.jpg"
+                }
+                
+            ]
+    },
+    {
+        "id": 4,
+        "personas": 6,
+        "nombre": "Cabaña 4",
+        "camas": "1 cama matrimonial - 2 camarotes",
+        "banos": "1 baño",
+        "calefaccion": "No posee",
+        "descripcion": "Cabaña equipada con cocina amoblada, living, cocina a gas, y comedor familiar",
+        "imgsources": 
+            [
+                {
+                "id": 1,
+                "url": "../../assets/images/cabins/Cabin_4/cabin4_img1.jpg"
+                },
+                {
+                "id": 2,
+                "url": "../../assets/images/cabins/Cabin_4/cabin4_img2.jpg"
+                },
+                {
+                "id": 3,
+                "url": "../../assets/images/cabins/Cabin_4/cabin4_img3.jpg"
+                },
+                {
+                "id": 4,
+                "url": "../../assets/images/cabins/Cabin_4/cabin4_img4.jpg"
+                },
+                {
+                "id": 5,
+                "url": "../../assets/images/cabins/Cabin_4/cabin4_img5.jpg"
+                },
+                {
+                "id": 6,
+                "url": "../../assets/images/cabins/Cabin_4/cabin4_img6.jpg"
+                }
+                
+            ]
+    },
+    {
+        "id": 5,
+        "personas": 4,
+        "nombre": "Cabaña 5",
+        "camas": "1 cama matrimonial - 1 camarote",
+        "banos": "1 baño",
+        "calefaccion": "No posee",
+        "descripcion": "Cabaña equipada con cocina amoblada, cocina a gas, y comedor",
+        "imgsources": 
+            [
+                {
+                "id": 1,
+                "url": "../../assets/images/cabins/Cabin_5/cabin5_img1.jpg"
+                },
+                {
+                "id": 2,
+                "url": "../../assets/images/cabins/Cabin_5/cabin5_img2.jpg"
+                },
+                {
+                "id": 3,
+                "url": "../../assets/images/cabins/Cabin_5/cabin5_img3.jpg"
+                },
+                {
+                "id": 4,
+                "url": "../../assets/images/cabins/Cabin_5/cabin5_img4.jpg"
+                },
+                {
+                "id": 5,
+                "url": "../../assets/images/cabins/Cabin_5/cabin5_img5.jpg"
+                },
+                {
+                "id": 6,
+                "url": "../../assets/images/cabins/Cabin_5/cabin5_img6.jpg"
+                }
+                
+            ]
+    },
+    {
+        "id": 6,
+        "personas": 10,
+        "nombre": "Cabaña 6",
+        "camas": "2 camas matrimoniales - 3 camarotes",
+        "banos": "1 baño",
+        "calefaccion": "Calefacción a leña",
+        "descripcion": "Cabaña equipada con cocina amoblada, living, cocina a gas, comedor familiar y comedor pequeño",
+        "imgsources": 
+            [
+                {
+                "id": 1,
+                "url": "Cabin_6/cabin6_img1.jpg"
+                },
+                {
+                "id": 2,
+                "url": "../../assets/images/cabins/Cabin_6/cabin6_img2.jpg"
+                },
+                {
+                "id": 3,
+                "url": "../../assets/images/cabins/Cabin_6/cabin6_img3.jpg"
+                },
+                {
+                "id": 4,
+                "url": "../../assets/images/cabins/Cabin_6/cabin6_img4.jpg"
+                },
+                {
+                "id": 5,
+                "url": "../../assets/images/cabins/Cabin_6/cabin6_img5.jpg"
+                },
+                {
+                "id": 6,
+                "url": "../../assets/images/cabins/Cabin_6/cabin6_img6.jpg"
+                }
+                
             ]
     }
+
 ]

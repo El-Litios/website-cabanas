@@ -1,28 +1,51 @@
 <template>
   <div>
-        <ul id="dropdown1" class="dropdown-content">
-            <li><router-link :to="{ name:'cabin-id', params: {id:1} }">Cabaña 1</router-link></li>
-            <li><router-link :to="{ name:'cabin-id', params: {id:2} }">Cabaña 2</router-link></li>
-            <li><router-link :to="{ name:'cabin-id', params: {id:3} }">Cabaña 3</router-link></li>
-            <li><router-link :to="{ name:'cabin-id', params: {id:4} }">Cabaña 4</router-link></li>
-            <li><router-link :to="{ name:'cabin-id', params: {id:5} }">Cabaña 5</router-link></li>
-            <li><router-link :to="{ name:'cabin-id', params: {id:6} }">Cabaña 6</router-link></li>
+        <ul id="dropdown1" class="dropdown-content" >
+            <li v-for="l in links_route" :key="l.id">
+              <router-link :to="{ name:'cabin-id', params: {id:l.id} }">{{l.name}}</router-link>
+            </li>
         </ul>
 
-        <ul id="dropdown2" class="dropdown-content">
-            <li><router-link :to="{ name:'cabin-id', params: {id:1} }">Cabaña 1</router-link></li>
-            <li><router-link :to="{ name:'cabin-id', params: {id:2} }">Cabaña 2</router-link></li>
-            <li><router-link :to="{ name:'cabin-id', params: {id:3} }">Cabaña 3</router-link></li>
-            <li><router-link :to="{ name:'cabin-id', params: {id:4} }">Cabaña 4</router-link></li>
-            <li><router-link :to="{ name:'cabin-id', params: {id:5} }">Cabaña 5</router-link></li>
-            <li><router-link :to="{ name:'cabin-id', params: {id:6} }">Cabaña 6</router-link></li>
+        <ul id="dropdown2" class="dropdown-content" >
+            <li v-for="l in links_route" :key="l.id">
+              <router-link :to="{ name:'cabin-id', params: {id:l.id} }">{{l.name}}</router-link>
+            </li>
         </ul>
   </div>
 </template>
 
 <script>
 export default {
-    
+    data (){
+      return {
+        links_route: [
+            {
+              id: 1,
+              name: 'Cabaña 1'
+            },
+            {
+              id: 2,
+              name: 'Cabaña 2'
+            },
+            {
+              id: 3,
+              name: 'Cabaña 3'
+            },
+            {
+              id: 4,
+              name: 'Cabaña 4'
+            },
+            {
+              id: 5,
+              name: 'Cabaña 5'
+            },
+            {
+              id: 6,
+              name: 'Cabaña 6'
+            },
+          ]
+      }
+    }
 }
 </script>
 
